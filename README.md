@@ -45,7 +45,7 @@
 - #### 메인상품 보여주는 화면
 
   <div align="center">
-    <img src=""> // 홈화면 캡쳐한 이미지 넣기
+    <img src="https://github.com/knss12/navershop/assets/121605903/986e92c9-d54e-4e8f-834e-0420ceaa7802"> // 홈화면 캡쳐한 이미지 넣기
   </div>
 
 - 간단히 Html, Css 연습용 프로젝트
@@ -53,7 +53,7 @@
 - #### Navbar에 Home, Accessory, Cart 링크 나열
 
   <div align="center">
-    <img src=""> // Navbar 캡쳐한 이미지 넣기
+    <img src="https://github.com/knss12/navershop/assets/121605903/3210289e-9bd8-4ee3-955e-0a7bffe3feb5"> // Navbar 캡쳐한 이미지 넣기
   </div>
 
 - 각각의 배너 클릭 시 해당 화면으로 이동한다.
@@ -63,7 +63,7 @@
 - #### 악세서리 아이템을 나열
 
   <div align="center">
-    <img src=""> // 악세서리 화면 캡쳐한 이미지 넣기
+    <img src="https://github.com/knss12/navershop/assets/121605903/c98905c6-3acc-4348-9e13-085aeecabb02"> // 악세서리 화면 캡쳐한 이미지 넣기
   </div>
 
 - data.js에 저장된 데이터를 가져와서 나열해준다.
@@ -73,7 +73,7 @@
 - #### 악세서리 데이터 info 관련
 
   <div align="center">
-      <img src = ""> // Detail화면 캡쳐한 이미지 넣기
+      <img src = "https://github.com/knss12/navershop/assets/121605903/6521611b-9961-47ae-be0f-b27ed3d7345e"> // Detail화면 캡쳐한 이미지 넣기
   </div>
 
 - 각 악세서리 상품명 클릭 시 해당 상품의 Detail 화면으로 이동
@@ -86,7 +86,7 @@
 - #### 장바구니 화면
 
   <div align="center">
-      <img src = ""> // Cart 화면 캡쳐한 이미지 넣기
+      <img src = "https://github.com/knss12/navershop/assets/121605903/2fe1b925-4806-4d2d-be3f-b39622ac393e"> // Cart 화면 캡쳐한 이미지 넣기
   </div>
 
 - '+' 버튼을 누르면 수량이 추가된다.
