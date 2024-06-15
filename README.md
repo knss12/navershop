@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# React, Html, Css 연습용 프로젝트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. 개요
 
-## Available Scripts
+- 프로젝트 이름 : NaverShop
+- 개발 기간 : 2024.06.12 ~ 2024.06.15
+- 개발 환경 : React, Redux
+- 작업 관리 : Git
+- #### 설치 라이브 러리
 
-In the project directory, you can run:
+        npm install react-ShoeShop
+        npm install react-router-dom@6
+        npm install react-bootstrap
+        npm install react-redux
+        npm install axios
 
-### `npm start`
+- #### 파일 구성
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+   📦 src
+   ┣ 📂 routes
+   ┃ ┗ 📜Accessory.js
+   ┃ ┗ 📜Cart.js
+   ┃ ┗ 📜Detail.js
+   ┃ ┗ 📜Home.js
+   ┣ 📜App.js
+   ┣ 📜App.css
+   ┣ 📜index.css
+   ┣ 📜index.js
+   ┣ 📜logo.svg
+   ┣ 📜reportWebVitals.js
+   ┣ 📜data.js
+   ┣ 📜store.js
+   ┗ 📜setupTests.js
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2. 프로젝트 설명
 
-### `npm test`
+- #### React와 Redux를 사용하여 장바구니 기능 구현
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 3. 주요 기능
 
-### `npm run build`
+## Home 화면
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- #### 메인상품 보여주는 화면
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <div align="center">
+    <img src=""> // 홈화면 캡쳐한 이미지 넣기
+  </div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 간단히 Html, Css 연습용 프로젝트
 
-### `npm run eject`
+- #### Navbar에 Home, Accessory, Cart 링크 나열
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  <div align="center">
+    <img src=""> // Navbar 캡쳐한 이미지 넣기
+  </div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 각각의 배너 클릭 시 해당 화면으로 이동한다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Accessory 화면
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- #### 악세서리 아이템을 나열
 
-## Learn More
+  <div align="center">
+    <img src=""> // 악세서리 화면 캡쳐한 이미지 넣기
+  </div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- data.js에 저장된 데이터를 가져와서 나열해준다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Detail 화면
 
-### Code Splitting
+- #### 악세서리 데이터 info 관련
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  <div align="center">
+      <img src = ""> // Detail화면 캡쳐한 이미지 넣기
+  </div>
 
-### Analyzing the Bundle Size
+- 각 악세서리 상품명 클릭 시 해당 상품의 Detail 화면으로 이동
+- useParams를 사용하여 id를 가져온다.
+- Detail 페이지의 데이터는 props와 id를 이용하여 사용한다.
+- useDispatch를 이용하여 '바로구매' 버튼 누르면 Cart 화면에 아이템이 추가된다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Cart 화면
 
-### Making a Progressive Web App
+- #### 장바구니 화면
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  <div align="center">
+      <img src = ""> // Cart 화면 캡쳐한 이미지 넣기
+  </div>
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- '+' 버튼을 누르면 수량이 추가된다.
